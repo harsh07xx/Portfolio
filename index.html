@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Harsh Padher — Final-year Computer Engineering student & passionate web developer." />
+  <title>Harsh Padher — Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ── Navigation ── -->
+  <nav class="nav" id="main-nav" role="navigation" aria-label="Primary">
+    <div class="nav-container">
+      <div class="nav-brand">HP</div>
+      <ul class="nav-links" id="nav-list"></ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile menu overlay + drawer -->
+  <div class="mobile-overlay" id="mobile-overlay" aria-hidden="true"></div>
+  <div class="mobile-menu" id="mobile-menu" role="dialog" aria-label="Mobile navigation"></div>
+
+  <!-- ── Hero ── -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <h1>Hi, I'm <span>Harsh Padher</span></h1>
+      <p class="hero-subtitle">Passionate Developer &amp; Problem Solver</p>
+      <p class="hero-desc">
+        Final-year diploma student building beautiful, responsive web applications using modern technologies.
+      </p>
+      <div class="social-links">
+        <a href="https://github.com/harsh07xx" target="_blank" rel="noopener noreferrer" aria-label="GitHub">💻</a>
+        <a href="https://www.linkedin.com/in/harsh-p-281239352" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">🔗</a>
+        <a href="https://x.com/Harshh0785" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter)">𝕏</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── About ── -->
+  <section id="about">
+    <div class="section-container">
+      <div class="section-label"><span>About Me</span></div>
+      <p class="section-h2">Who I Am</p>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>I'm a final-year diploma student in Computer Engineering with a passion for building web applications that solve real problems. I enjoy learning new technologies and applying them to create beautiful, responsive, and user-friendly interfaces.</p>
+          <p>I love building practical projects, solving real problems with code, and continuously expanding my technical toolkit. When I'm not coding, you'll find me exploring new technologies or contributing to open-source projects.</p>
+        </div>
+        <div id="strengths"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Skills ── -->
+  <section id="skills">
+    <div class="section-container">
+      <div class="section-label"><span>Skills</span></div>
+      <p class="section-h2">My Expertise</p>
+      <div class="skills-grid" id="skills-grid"></div>
+    </div>
+  </section>
+
+  <!-- ── Projects ── -->
+  <section id="projects">
+    <div class="section-container">
+      <div class="section-label"><span>Portfolio</span></div>
+      <p class="section-h2">What I've Built</p>
+      <div class="projects-list" id="projects-list"></div>
+    </div>
+  </section>
+
+  <!-- ── Education ── -->
+  <section id="education">
+    <div class="section-container">
+      <div class="section-label"><span>Education</span></div>
+      <p class="section-h2">My Journey</p>
+      <div class="education-list" id="education-list"></div>
+    </div>
+  </section>
+
+  <!-- ── Contact ── -->
+  <section id="contact">
+    <div class="contact-content">
+      <div class="section-label" style="justify-content:center"><span>Get In Touch</span></div>
+      <p class="contact-h2">Let's Work <span>Together</span></p>
+      <p class="contact-desc">
+        Got an exciting project or opportunity? Feel free to reach out and let's create something amazing together!
+      </p>
+      <div class="contact-buttons">
+        <a href="tel:+919409022657" class="contact-btn contact-phone"><span>📞</span> +91 9409022657</a>
+        <a href="mailto:harshpadher85@gmail.com" class="contact-btn contact-email"><span>✉️</span> harshpadher85@gmail.com</a>
+      </div>
+      <div class="contact-social">
+        <a href="https://github.com/harsh07xx" target="_blank" rel="noopener noreferrer" aria-label="GitHub">💻 GitHub</a>
+        <a href="https://www.linkedin.com/in/harsh-p-281239352" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">🔗 LinkedIn</a>
+        <a href="https://x.com/Harshh0785" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter)">𝕏 X</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Footer ── -->
+  <footer>
+    <p>© 2025 Harsh Padher · Built with HTML, CSS &amp; JavaScript</p>
+    <p class="footer-credit">Made with ❤️ | <a href="mailto:harshpadher85@gmail.com">Get in Touch</a></p>
+  </footer>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+</html>
